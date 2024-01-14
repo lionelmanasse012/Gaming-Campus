@@ -1,0 +1,48 @@
+nav{
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    max-width: 1100px;
+    @include block-center;
+    ul{
+        height: 50px;
+        @include flex-sbetween;
+        &:hover li:not(:hover) {
+            color: #000;
+        }
+        &:hover li:not(:hover)::before {
+            background: none;
+        }
+        li:first-child{
+            color: blueviolet;
+        }
+        li:first-child::before{
+            content: "";
+            position: absolute;
+            background: blueviolet;
+            top: -18px;
+            width: 100%;
+            height: 5px;
+        }
+        li{
+            position: relative;
+            text-transform: uppercase;
+            font-family: "Montserrat-Variable";
+            font-size: .7rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .3s ease;
+            &:hover{
+                color:  blueviolet;
+            }
+            &:hover::before{
+                content: "";
+            position: absolute;
+            background: blueviolet;
+            top: -18px;
+            width: 100%;
+            height: 5px;
+            }
+        }
+    }
+}
