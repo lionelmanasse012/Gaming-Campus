@@ -14,6 +14,10 @@
   text-decoration: none;
 }
 
+body {
+  text-align: center;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -26,12 +30,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-nav ul:hover li:not(:hover) {
-  color: #000;
-}
-nav ul:hover li:not(:hover)::before {
-  background: none;
 }
 nav ul li:first-child {
   color: blueviolet;
@@ -63,4 +61,19 @@ nav ul li:hover::before {
   top: -18px;
   width: 100%;
   height: 5px;
+}
+nav ul:hover li:not(:hover) {
+  color: #000;
+}
+nav ul:hover li:not(:hover)::before {
+  background: none;
+}
+nav ul li:last-child {
+  color: #000;
+  background: #dfdfdf;
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+nav ul li:last-child:hover::before {
+  background: none;
 }/*# sourceMappingURL=index.css.map */
