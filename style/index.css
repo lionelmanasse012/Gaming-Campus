@@ -76,4 +76,9 @@ nav ul li:last-child {
 }
 nav ul li:last-child:hover::before {
   background: none;
+}
+
+header {
+  text-transform: uppercase;
+  font-family: "Montserrat-Variable";
 }/*# sourceMappingURL=index.css.map */
