@@ -81,4 +81,7 @@ nav ul li:last-child:hover::before {
 header {
   text-transform: uppercase;
   font-family: "Montserrat-Variable";
+  color: #fff;
+  background: url(/assets/img/bg.jpg) fixed center/cover;
+  padding: 60px 0;
 }/*# sourceMappingURL=index.css.map */
