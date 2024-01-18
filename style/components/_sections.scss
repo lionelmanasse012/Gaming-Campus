@@ -5,10 +5,16 @@
     .icon-part-container{
         @include flex-sbetween;
         @include block-center;
+        .list-icon-part{
+            width: 30%;
+            img{
+                width: 100%;
+            }
+        }
         h3{
             text-transform: uppercase;
             font-family: $font1;
-            font-size: 1rem;
+            font-size: .9rem;
         }
     }
 }
