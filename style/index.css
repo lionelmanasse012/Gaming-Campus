@@ -19,21 +19,43 @@ body {
 }
 
 button {
-  padding: 10px 30px;
+  padding: 10px 15px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.6s ease;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.newsroom {
+  border: 1px solid #000;
+  color: #000;
+}
+.newsroom:hover {
+  background: #000;
+  color: #fff;
 }
 
 nav {
   position: sticky;
   top: 0;
-  background: #ffffff;
-  max-width: 1100px;
-  margin: 0 auto;
+  background: #fff;
 }
 nav ul {
   height: 50px;
+  max-width: 1100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 nav ul li:first-child {
   color: blueviolet;
@@ -92,4 +114,31 @@ header {
 header h1 {
   font-size: 1.5rem;
   padding: 40px 0;
+}
+
+.icon-part {
+  background: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+.icon-part .icon-part-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.icon-part .icon-part-container h3 {
+  text-transform: uppercase;
+  font-family: "Montserrat-Variable";
+  font-size: 1rem;
+}
+
+.header-text {
+  padding: 50px 0;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Variable";
+  font-weight: 500;
+  max-width: 1100px;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */

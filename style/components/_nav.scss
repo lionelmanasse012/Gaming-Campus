@@ -1,12 +1,13 @@
 nav{
     position: sticky;
     top: 0;
-    background: #ffffff;
-    max-width: 1100px;
-    @include block-center;
+    background: #fff;
+    
     ul{
         height: 50px;
+        max-width: 1100px;
         @include flex-sbetween;
+        @include block-center;
         li:first-child{
             color: blueviolet;
         }

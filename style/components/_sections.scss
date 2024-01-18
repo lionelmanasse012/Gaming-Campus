@@ -1,0 +1,14 @@
+.icon-part{
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+    .icon-part-container{
+        @include flex-sbetween;
+        @include block-center;
+        h3{
+            text-transform: uppercase;
+            font-family: $font1;
+            font-size: 1rem;
+        }
+    }
+}
