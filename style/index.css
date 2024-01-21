@@ -195,14 +195,26 @@ header h1 {
 }
 .news-part .main-news-container .main-item h4 {
   font-size: 1.1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .news-part .main-news-container .main-item p {
-  margin: 10px 0;
+  margin: 10px 0 20px;
   font-size: 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+.news-part .main-news-container .main-item a {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.news-part .main-news-container .main-item a:hover {
+  text-decoration: underline;
 }
 
 .header-text {
